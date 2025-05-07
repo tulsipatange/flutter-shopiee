@@ -24,9 +24,9 @@ flutter-shopiee/
 │    │   ├── product_grid.dart
 │    │   └── product_item.dart
 │    └── main.dart           # Application entry point
+├── Shopiee Screenshots     # Screenshots of Emulator, Physical Android Device & Web
 ├── pubspec.yaml            # Flutter dependencies
 └── README.md               # Project documentation
-├── Shopiee Screenshots     # Screenshots of Emulator, Physical Android Device & Web
 ```
 
 The project follows a simplified structure with all code contained in thier own namespace for easy readability.
@@ -85,3 +85,12 @@ flutter run -d ios
 ```bash
 flutter run -d web
 ```
+### Build release apk
+```bash
+flutter build apk --release
+```
+
+### Screenshots
+1. App Running on [Physical Android Device](https://github.com/tulsipatange/flutter-shopiee/tree/main/Shopiee%20Screenshots/Physical%20Android%20Device)
+2. App Running on [Web Chrome/Edge](https://github.com/tulsipatange/flutter-shopiee/tree/main/Shopiee%20Screenshots/Web)
+3. App Running on [Android Emulator](https://github.com/tulsipatange/flutter-shopiee/tree/main/Shopiee%20Screenshots/Android%20Emulator)
