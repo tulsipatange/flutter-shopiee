@@ -3,9 +3,12 @@
 A new Flutter project named Shopiee.
 
 ## Project Overview
+
 This document provides a comprehensive guide to configuring and running the Shopiee App, a beginner-friendly Flutter application that allows users to browse products, add items to their cart, and calculate their shopping total.
 
 ## Project Structure
+
+```bash
 flutter-shopiee/
 │
 ├── lib/
@@ -19,10 +22,12 @@ flutter-shopiee/
 │    ├── widgets             # All the widgets used
 │    │   ├── cart_item.dart
 │    │   ├── product_grid.dart
-│    │   └── product_item.dart                         
+│    │   └── product_item.dart
 │    └── main.dart           # Application entry point
 ├── pubspec.yaml            # Flutter dependencies
 └── README.md               # Project documentation
+├── Shopiee Screenshots     # Screenshots of Emulator, Physical Android Device & Web
+```
 
 The project follows a simplified structure with all code contained in thier own namespace for easy readability.
 
@@ -43,30 +48,40 @@ flutter doctor
 ```
 
 ### Setup Instructions
+
 1. Clone the Repository
+
 ```bash
-git clone https://github.com/tulsipatange/flutter-shopiee.git 
-cd 
+git clone https://github.com/tulsipatange/flutter-shopiee.git
+cd
 ```
 
 2. Install Dependencies
+
 ```bash
 flutter pub get
 ```
 
 ### Run the App
 
-#### Run on Android 
+#### Run on Android
+
 Make sure an emulator is running or a device is connected.
+
 ```bash
 flutter run
 ```
-#### Run on iOS (Requires macOS with Xcode installed.) 
+
+#### Run on iOS (Requires macOS with Xcode installed.)
+
 Make sure an iOS emulator is running or a iOS device is connected.
+
 ```bash
 flutter run -d ios
 ```
-#### Run on Web 
+
+#### Run on Web
+
 ```bash
 flutter run -d web
 ```
